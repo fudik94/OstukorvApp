@@ -15,14 +15,14 @@ It allows users to:
 ### Special Features
 
 - Fun warnings and messages based on product names (only shown once):
-  - `Liha`, `Kana`, `Kala` → "I see you are not a vegetarian 😏"
-  - `Cola` → "Better take Zero, no sugar 🥤"
-  - `Malbro` / `Marlboro` → "Do you know how many people die from smoking each year? 🚬"
-  - `Alcohol` → "Are you at least 18 years old? 🍺"
+  - `Liha`, `Kana`, `Kala` 
+  - `Cola`
+  - `Malbro` / `Marlboro` 
+  - `Alcohol` 
 - Warnings for budget limits:
-  - ≥ 345 € → "You have already spent more than the Estonian subsistence minimum 💸"
-  - ≥ 500 € → "Wow, maybe get another wallet 😅"
-- Quantity check: more than 10 units → "Are you really going to eat that much? 😳"
+  - ≥ 345 € 
+  - ≥ 500 € 
+- Quantity check: more than 10 units 
 
 ---
 
@@ -41,14 +41,14 @@ Rakendus võimaldab:
 ### Erifunktsioonid
 
 - Naljakad hoiatusteated toodete nimede põhjal (näidatakse ainult üks kord):
-  - `Liha`, `Kana`, `Kala` → "Näen, sa ei ole taimetoitlaste sõber 😏"
-  - `Cola` → "Parem võta Zero, seal pole suhkrut 🥤"
-  - `Malbro` / `Marlboro` → "Kas tead, mitu inimest suitsetamise tõttu iga aasta sureb? 🚬"
-  - `Alcohol` → "Sul on ikka vähemalt 18 aastat? 🍺"
+  - `Liha`, `Kana`, `Kala` 
+  - `Cola` 
+  - `Malbro` / `Marlboro` 
+  - `Alcohol` 
 - Eelarve hoiatused:
-  - ≥ 345 € → "Oled juba kulutanud rohkem kui Eesti elatusmiinimum 💸"
-  - ≥ 500 € → "Oi, võiks teise rahakoti hankida 😅"
-- Koguse kontroll: rohkem kui 10 ühikut → "Tõesti kavatsed nii palju süüa? 😳"
+  - ≥ 345 € 
+  - ≥ 500 € 
+- Koguse kontroll: rohkem kui 10 ühikut 
 
 ---
 
@@ -67,11 +67,11 @@ Rakendus võimaldab:
 ### Особые функции
 
 - Весёлые предупреждения по названиям продуктов (показываются только один раз):
-  - `Liha`, `Kana`, `Kala` → "Вижу, ты не любишь вегетарианцев 😏"
-  - `Cola` → "Лучше бери Zero, там нет сахара 🥤"
-  - `Malbro` / `Marlboro` → "Ты знаешь, сколько людей умирает от курения каждый год? 🚬"
-  - `Alcohol` → "Тебе уже есть 18? 🍺"
+  - `Liha`, `Kana`, `Kala` 
+  - `Cola` 
+  - `Malbro` / `Marlboro` 
+  - `Alcohol` 
 - Предупреждения по бюджету:
-  - ≥ 345 € → "Ты уже потратил больше прожиточного минимума в Эстонии 💸"
-  - ≥ 500 € → "Ого, может завести второй кошелек 😅"
-- Проверка количества: больше 10 единиц → "Серьёзно столько съешь? 😳"
+  - ≥ 345 € 
+  - ≥ 500 € 
+- Проверка количества: больше 10 единиц 
