@@ -1,0 +1,45 @@
+﻿<Window x:Class="OstukorvApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ostukorv" Height="500" Width="800"
+        WindowStartupLocation="CenterScreen"
+        Background="#FAFAFA">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- up panel -->
+        <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+            <TextBox x:Name="SearchBox" Width="200" Height="25" 
+                     Margin="0 0 10 0"
+                     ToolTip="Otsi toote nime järgi..."
+                     TextChanged="SearchBox_TextChanged"/>
+            <Button Content="➕ Lisa toode" Width="100" Background="#00FF7F" Margin="0 0 10 0" Click="AddButton_Click"/>
+            <Button Content="✏️ Muuda" Width="80" Background="#FFFF00" Margin="0 0 10 0" Click="EditButton_Click"/>
+            <Button Content="❌ Eemalda" Width="80" Background="#FF4500" Margin="0 0 10 0" Click="DeleteButton_Click"/>
+            <Button Content="🔀 Sorteeri nime järgi" Width="150" Background="#00BFFF" Click="SortButton_Click"/>
+        </StackPanel>
+
+        <!-- table -->
+        <DataGrid x:Name="ToodedGrid" Grid.Row="1" AutoGenerateColumns="False"
+                  IsReadOnly="False" SelectionMode="Single" AlternatingRowBackground="#FFF5F5F5"
+                  CellEditEnding="ToodedGrid_CellEditEnding">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nimi" Binding="{Binding Nimi}" Width="*"/>
+                <DataGridTextColumn Header="Kogus" Binding="{Binding Kogus}" Width="100"/>
+                <DataGridTextColumn Header="Hind (€)" Binding="{Binding Hind}" Width="100"/>
+                <DataGridCheckBoxColumn Header="Ostetud" Binding="{Binding Ostetud, Mode=TwoWay}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- down panel -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 10 0 0">
+            <TextBlock Text="Kokku: " FontWeight="Bold" VerticalAlignment="Center"/>
+            <TextBlock x:Name="TotalLabel" Text="0.00 €" Margin="5 0 0 0" FontWeight="Bold" VerticalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>
